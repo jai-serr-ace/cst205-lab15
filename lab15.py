@@ -10,7 +10,7 @@ bootstrap = Bootstrap5(app)
 # route decorator binds a function to a URL
 @app.route('/')
 def hello():
-    return f"<h1>Acronyms</h1> <h1>Oscar: NBA</h1>"
+    return f"<h1>Acronyms</h1> <h1>Oscar: NBA</h1> <h1>Diego: PMO</h1>"
 @app.route('/jaime')
 def t_test():
     return render_template('my_template_1.html')
